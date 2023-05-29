@@ -1,0 +1,42 @@
+# Print "Hello, World!"
+print("Hello, World!")
+
+# Variables
+name = "Alice"
+age = 25
+height = 1.75
+is_student = True
+
+# Conditional statements
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+# Looping
+for i in range(1, 6):
+    print(i)
+
+# Lists
+fruits = ["apple", "banana", "orange"]
+print(fruits[0])  # Output: "apple"
+fruits.append("grape")
+print(len(fruits))  # Output: 4
+
+# Functions
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Bob")  # Output: "Hello, Bob!"
+
+# Classes
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
+
+rect = Rectangle(4, 5)
+print(rect.area())  # Output: 20
